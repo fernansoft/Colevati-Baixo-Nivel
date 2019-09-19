@@ -9,4 +9,4 @@ main:
 	mul $t4, $t0, $t1 #$t4 <- $t0 * $t1
 	div $t5, $t0, $t1 #$t5 <- $t0 / $t1
 	rem $t6, $t0, $t1 #$t6 <- $t0 % $t1 ($t6 <- $t0 mod $t1)
-	
+#(PCSpim - Programa para rodar o código <linguagem assembly>)
