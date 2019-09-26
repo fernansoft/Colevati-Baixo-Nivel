@@ -26,12 +26,11 @@ main:
 	ble $t1, 10, fatorial
 	
 	fatorial:
-	li $t1, 5
+	#li $t1, 5
 	add $t2, $t1, $zero
 	sub $t2, $t2, 1
 	mul $t1, $t2, $t1
-	beq $t1, 1, resultado
-	j fatorial
+	bge $t1, 1, fatorial
 	
 	resultado:
 	li $v0, 1
