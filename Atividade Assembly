@@ -1,0 +1,7 @@
+ddi = int(input('Insira o dia da primeira data: '))
+mmi = int(input('Insira o mês da primeira data: '))
+aaaai = int(input('Insira o ano da primeira data: '))
+ddf = int(input('Insira o dia da segunda data: '))
+mmf = int(input('Insira o mês da segunda data: '))
+aaaaf = int(input('Insira o ano da segunda data: '))
+intervalo = int(aaaaf - aaaai)
